@@ -18,10 +18,10 @@ section.hero {
 
 }
 
-.herotext {
+/* .herotext {
 
-    /* position: absolute;*/
-}
+     position: absolute;
+} */
 
 p.herotext1 {
     font-family: 'Halant';
@@ -170,7 +170,7 @@ a .menu-items {
     /* align-items: center; */
     justify-content: center;
     text-align: center;
-    \
+
 
 }
 
@@ -294,15 +294,15 @@ h3.button2 {
 
 }
 
-#footercopy {
+/*#footercopy {
 
     
     /*align-items:center;
     margin-top: 16px;
     margin-bottom: 16px;
-    margin-right: 120px; */
+    margin-right: 120px; 
 
-}
+} */
 
 .footercopy{
 
