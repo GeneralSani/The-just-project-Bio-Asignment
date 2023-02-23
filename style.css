@@ -142,12 +142,13 @@ h3.herotext3 {
     line-height: 24px;
     color: #000000;
 
+
 }
 
-a .menu-items {
+a.menu-items {
 
-    border-bottom: 1px solid #155EEF;
-    text-decoration: none;
+    border-bottom: 1px solid #155EEF !important ;
+    text-decoration: none !important; 
 }
 
 .navbutton {
