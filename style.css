@@ -189,15 +189,13 @@ a.menu-items {
     margin-bottom: 32px;
     width: 516px;
     height: 374px;
-   
-
 
 }
 
 #about {
 
     margin-left: 157px;
-    margin-top: 48px;
+    margin-top: 18px;
 }
 
 .about-heading {
@@ -250,7 +248,7 @@ h3.button1 {
     margin-right: 16px;
     text-align: center;
     margin-bottom: 56px;
-    margin-top: 42px;
+    margin-top: 12px;
 
 }
 
@@ -271,7 +269,7 @@ h3.button2 {
     padding: 10px 16px;
     text-align: center;
     margin-bottom: 56px;
-    margin-top: 42px;
+    margin-top: 12px;
 
 }
 
