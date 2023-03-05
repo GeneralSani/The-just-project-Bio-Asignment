@@ -381,7 +381,6 @@ section.hero {
 
 .heroimage {  
 
-    width: ;
     align-items: center;
     justify-content: center;
     padding-right: 0px;
@@ -446,14 +445,14 @@ h3.herotext3 {
 #about-button {
 
     align-items: center;
+    justify-content: center;
 }
 
 .footer {
 
     margin-top: 0px;
     padding-left: 8px;
-    width: ;
-    
+        
 }
 
 #footercopy {
@@ -465,8 +464,7 @@ h3.herotext3 {
 
     padding-right: 50px;
     margin: 0px;
-    width:;
-
+    
 }
 
 .icon{
@@ -476,10 +474,8 @@ h3.herotext3 {
 
 }
 
-.footercontainer{
 
-    width:;
-}
+
 #footermobile {
 
     display: block;
