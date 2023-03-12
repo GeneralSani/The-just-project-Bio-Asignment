@@ -258,6 +258,104 @@ h3.button2 {
 
 }
 
+.rec {
+
+    width: 100%;
+    display: flex;
+    margin-top: 32px ;
+    background: #E6E6E6;
+    position: relative;
+
+}
+
+.recimage {
+
+    width: 45%;
+    padding-left: 30px;
+    margin-top: 64px;
+    margin-bottom: 100px;
+}
+
+.rec1 {
+
+    width: 45%;
+    background: white;
+    height: 30em;
+    padding-left: 40px;
+    padding-right: 40px;
+    /*position: absolute;*/
+    margin-top: 100px;
+    margin-right: 50px;
+    z-index: 10px 
+   
+}
+
+.recheading {
+
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #141414;
+}
+
+.recbody {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #141414;
+}
+
+.recname {
+
+    display: flex;
+    align-items: center;
+}
+
+.recname1{
+
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #525252;
+    align-items: center;
+    justify-content: center;
+}
+
+.recname2 {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    color: #000000;
+
+}
+
+.recname3{
+
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #525252;
+    align-items: center;
+
+}
+
 .footercontainer{
     background: #080808;
 }
@@ -320,6 +418,11 @@ h3.button2 {
 }
 
 @media only screen and (max-width: 1107px) {
+
+body {
+
+    width: 100%;
+}
 
 .toggle {
 
@@ -419,7 +522,7 @@ h3.herotext3 {
 .about {
 
     display:block;
-    /*width: 100%;*/
+    width: 100%;
     margin-top: 0px;
     justify-content: center;
 }
@@ -446,6 +549,87 @@ h3.herotext3 {
 
     align-items: center;
     justify-content: center;
+}
+
+.recimage {
+
+   display: none;
+
+}
+
+.rec {
+
+    width: 100%;
+    background: #E6E6E6;
+    margin: 0px;
+}
+
+.rec1 {
+
+    width: 100%;
+    height: auto;
+    background: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    /*position: absolute;*/
+    margin-top: 0px;
+    margin-right: 0px;
+    
+}
+
+.recheading {
+
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #141414;
+}
+
+.recbody {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #141414;
+}
+
+.recname1{
+
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.recname2 {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #000000;
+
+}
+
+.recname3 {
+
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #525252;
+    align-items: center;
+
 }
 
 .footer {
