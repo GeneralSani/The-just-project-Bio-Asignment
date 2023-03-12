@@ -540,11 +540,23 @@ h3.herotext3 {
         
 }  
 
-.about-text{
+.about-heading {
+
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.about-text {
 
     padding-left: 24px;
     padding-right: 24px;
+    font-weight: 400;
+    font-size: 16px;
 }
+
+
+
 #about-button {
 
     align-items: center;
